@@ -1,0 +1,17 @@
+class ClaimLocator:
+    Claim_Menu = "//span[text()='Claim']"
+    Submit_Claim_Section = "//a[text()='Submit Claim']"
+    Claim_Type_Input = "//div[@class='oxd-select-text-input']"
+    Currency_Input = "//label[text()='Currency']/../following-sibling::div//div[@class='oxd-select-text-input']"
+    Claim_Submit_Button = "//button[@type='submit']"
+    Submit_Claim_Menu = "//h6[text()='Submit Claim']"
+    Add_Expense_Button = "//button[text()=' Add ']"
+    Expense_Type_Input = "//div[@class='oxd-select-text-input']"
+    Date_Input = "//input[@placeholder='yyyy-dd-mm']"
+    Amount_Input = "//label[text()='Amount']/../following-sibling::div//input"
+    Save_Expense_Button = "//button[normalize-space()='Save']"
+    New_Record_Table = "//div[@class='oxd-table-card']"
+    Final_Submit_Button = "//button[normalize-space()='Submit']"
+    My_Claim_Section = "//a[text()='My Claims']"
+    My_Claim_Records = "//div[@class='oxd-table-card']"
+

@@ -1,0 +1,276 @@
+INFO     root:conftest.py:12 Test session started
+INFO     pages.base_page:base_page.py:16 Navigating to https://opensource-demo.orangehrmlive.com
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='username']
+INFO     pages.login_page:login_page.py:16 Logging in with username: Admin
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='password']
+INFO     pages.login_page:login_page.py:18 Logging in with password: admin123
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.login_page:login_page.py:20 Clicked on the submit button
+INFO     pages.base_page:base_page.py:39 Element is visible: //h6[text()='Dashboard']
+INFO     pages.home_page:home_page.py:16 Clicking Admin menu
+INFO     pages.admin_page:admin_page.py:11 Creating user
+INFO     pages.admin_page:admin_page.py:16 Admin role clicked
+INFO     pages.admin_page:admin_page.py:19 Ranga Akunuri clicked
+INFO     pages.admin_page:admin_page.py:22 Enabled status clicked
+INFO     pages.admin_page:admin_page.py:26 Username Entered
+INFO     pages.admin_page:admin_page.py:30 Password Entered
+INFO     pages.admin_page:admin_page.py:33 Confirm Password Entered
+INFO     pages.admin_page:admin_page.py:35 Clicked on Save button
+INFO     pages.home_page:home_page.py:22 Clicked Profile Menu
+INFO     pages.home_page:home_page.py:24 Clicked Logout button
+INFO     pages.login_page:login_page.py:35 Entering username
+INFO     pages.login_page:login_page.py:37 Entering password
+INFO     pages.login_page:login_page.py:40 Clicked Submit button
+INFO     pages.base_page:base_page.py:39 Element is visible: //h6[text()='Dashboard']
+INFO     pages.base_page:base_page.py:16 Navigating to https://opensource-demo.orangehrmlive.com
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='username']
+INFO     pages.login_page:login_page.py:16 Logging in with username: Admin
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='password']
+INFO     pages.login_page:login_page.py:18 Logging in with password: admin123
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.login_page:login_page.py:20 Clicked on the submit button
+INFO     pages.base_page:base_page.py:39 Element is visible: //h6[text()='Dashboard']
+INFO     pages.home_page:home_page.py:16 Clicking Admin menu
+INFO     pages.admin_page:admin_page.py:40 Searching for user: Ranga Rathy
+INFO     pages.admin_page:admin_page.py:44 Clicked on Search button
+INFO     pages.admin_page:admin_page.py:48 Checking if user is present in table: Ranga Rathy
+INFO     pages.admin_page:admin_page.py:55 Row 1 username: Admin
+INFO     pages.admin_page:admin_page.py:55 Row 2 username: Employee
+INFO     pages.admin_page:admin_page.py:55 Row 3 username: ess.027kp6
+INFO     pages.admin_page:admin_page.py:55 Row 4 username: ess.b3lsvh
+INFO     pages.admin_page:admin_page.py:55 Row 5 username: ess.gnvkxg
+INFO     pages.admin_page:admin_page.py:55 Row 6 username: ess.wlm3fh
+INFO     pages.admin_page:admin_page.py:55 Row 7 username: FMLName
+INFO     pages.admin_page:admin_page.py:55 Row 8 username: Ranga Rathy
+INFO     pages.admin_page:admin_page.py:57 User Ranga Rathy found in table
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='username']
+INFO     pages.login_page:login_page.py:16 Logging in with username: Admin
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='password']
+INFO     pages.login_page:login_page.py:18 Logging in with password: admin123
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.login_page:login_page.py:20 Clicked on the submit button
+INFO     pages.base_page:base_page.py:39 Element is visible: //h6[text()='Dashboard']
+INFO     pages.claim_page:claim_page.py:11 Navigating to Claim section
+INFO     pages.claim_page:claim_page.py:16 Submitting new claim
+INFO     pages.claim_page:claim_page.py:20 Selected claim type: Travel Allowance
+INFO     pages.claim_page:claim_page.py:24 Selected currency: Indian Rupee
+INFO     pages.claim_page:claim_page.py:27 Entered reason: Client meeting travel reimbursement
+INFO     pages.claim_page:claim_page.py:30 Clicked Submit button
+INFO     pages.claim_page:claim_page.py:37 Adding expense
+INFO     pages.claim_page:claim_page.py:49 Expense saved
+INFO     pages.claim_page:claim_page.py:54 Submitting claim
+INFO     pages.claim_page:claim_page.py:57 Clicked Submit button
+INFO     pages.claim_page:claim_page.py:60 Checking for successful claim submission
+INFO     pages.claim_page:claim_page.py:63 Claim submission successful
+INFO     pages.claim_page:claim_page.py:71 Checking claim in history
+INFO     pages.claim_page:claim_page.py:81 Row 1: 202608070000007
+Travel Allowance
+Client meeting travel reimbursement
+Indian Rupee
+2026-07-08
+Submitted
+1,500.00
+View Details
+INFO     pages.claim_page:claim_page.py:88 Claim found in history
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='username']
+INFO     pages.login_page:login_page.py:16 Logging in with username: Admin
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='password']
+INFO     pages.login_page:login_page.py:18 Logging in with password: admin123
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.login_page:login_page.py:20 Clicked on the submit button
+INFO     pages.base_page:base_page.py:39 Element is visible: //h6[text()='Dashboard']
+INFO     pages.leave_page:leave_page.py:12 Clicked on Leave Menu
+INFO     pages.leave_page:leave_page.py:17 Navigating to Assign Leave section
+INFO     pages.leave_page:leave_page.py:20 Assigning leave to employee: Employee
+INFO     pages.leave_page:leave_page.py:23 employee name is selected: Employee
+INFO     pages.leave_page:leave_page.py:25 Selecting leave type: CAN - Vacation
+INFO     pages.base_page:base_page.py:28 Clicking the //i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']
+INFO     pages.base_page:base_page.py:28 Clicking the //div[@role='option']//span[text()='CAN - Vacation']
+INFO     pages.leave_page:leave_page.py:30 Selecting From date: 2026-08-28
+INFO     pages.base_page:base_page.py:22 Element is visible: //label[text()='From Date']/../following-sibling::div//input[@placeholder='yyyy-dd-mm']
+INFO     pages.leave_page:leave_page.py:34 Selecting To date: 2026-08-29
+INFO     pages.base_page:base_page.py:22 Element is visible: //label[text()='To Date']/../following-sibling::div//input[@placeholder='yyyy-dd-mm']
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.leave_page:leave_page.py:39 Waiting for popup dialog
+INFO     pages.leave_page:leave_page.py:43 Popup appeared, clicking OK
+INFO     pages.leave_page:leave_page.py:50 Checking for success message
+WARNING  pages.leave_page:leave_page.py:61 Success toast not detected, falling back to URL check : Page.wait_for_selector: Timeout 8000ms exceeded.
+Call log:
+  - waiting for locator("//div[contains(@class,'oxd-toast-content') and contains(.,'Success')]") to be visible
+
+INFO     pages.leave_page:leave_page.py:65 Leave assignment successful (URL stable)
+INFO     pages.leave_page:leave_page.py:73 Navigating to Leave list
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Leave List']
+INFO     pages.leave_page:leave_page.py:78 Selecting Leave status: Scheduled
+INFO     pages.base_page:base_page.py:28 Clicking the //label[text()='Show Leave with Status']/../following-sibling::div//div[contains(@class,'oxd-select-text-input')]
+INFO     pages.base_page:base_page.py:28 Clicking the //div[@role='option']//span[text()='Scheduled']
+INFO     pages.leave_page:leave_page.py:83 Selecting date range: 2026-08-28 to 2026-08-29
+INFO     pages.base_page:base_page.py:22 Element is visible: //label[text()='From Date']/../following-sibling::div//input[@placeholder='yyyy-dd-mm']
+INFO     pages.base_page:base_page.py:22 Element is visible: //label[text()='To Date']/../following-sibling::div//input[@placeholder='yyyy-dd-mm']
+INFO     pages.base_page:base_page.py:28 Clicking the //button[text()=' Search ']
+INFO     pages.leave_page:leave_page.py:96 Row 1 name: Employee Test User
+INFO     pages.leave_page:leave_page.py:98 Leave record found in the leave list
+INFO     pages.base_page:base_page.py:16 Navigating to https://opensource-demo.orangehrmlive.com
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='username']
+INFO     pages.login_page:login_page.py:16 Logging in with username: Admin
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='password']
+INFO     pages.login_page:login_page.py:18 Logging in with password: admin123
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.login_page:login_page.py:20 Clicked on the submit button
+INFO     tests.login_test.test_1_verify_multiple_login:test_1_verify_multiple_login.py:25 Checking Dashboard visibility for Login Successful
+INFO     pages.base_page:base_page.py:39 Element is visible: //h6[text()='Dashboard']
+INFO     pages.base_page:base_page.py:16 Navigating to https://opensource-demo.orangehrmlive.com
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='username']
+INFO     pages.login_page:login_page.py:16 Logging in with username: manager@guvi.in
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='password']
+INFO     pages.login_page:login_page.py:18 Logging in with password: password@123
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.login_page:login_page.py:20 Clicked on the submit button
+INFO     tests.login_test.test_1_verify_multiple_login:test_1_verify_multiple_login.py:30 Checking error message for invalid login
+INFO     tests.login_test.test_1_verify_multiple_login:test_1_verify_multiple_login.py:35 Error message: Invalid credentials
+INFO     pages.base_page:base_page.py:16 Navigating to https://opensource-demo.orangehrmlive.com
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='username']
+INFO     pages.login_page:login_page.py:16 Logging in with username: suman@guvi.in
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='password']
+INFO     pages.login_page:login_page.py:18 Logging in with password: password@123
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.login_page:login_page.py:20 Clicked on the submit button
+INFO     tests.login_test.test_1_verify_multiple_login:test_1_verify_multiple_login.py:30 Checking error message for invalid login
+INFO     tests.login_test.test_1_verify_multiple_login:test_1_verify_multiple_login.py:35 Error message: Invalid credentials
+INFO     pages.base_page:base_page.py:16 Navigating to https://opensource-demo.orangehrmlive.com
+INFO     pages.base_page:base_page.py:39 Element is visible: //input[@name='username']
+INFO     pages.base_page:base_page.py:39 Element is visible: //input[@name='password']
+INFO     tests.login_test.test_2_verify_home_URL_is_accessible:test_2_verify_home_URL_is_accessible.py:13 Homepage url loaded successfully
+INFO     pages.login_page:login_page.py:27 Checking visibility of username input: //input[@name='username']
+INFO     pages.base_page:base_page.py:39 Element is visible: //input[@name='username']
+INFO     tests.login_test.test_3_verify_presence_of_login_fields:test_3_verify_presence_of_login_fields.py:20 Username is visible
+INFO     pages.login_page:login_page.py:31 Checking visibility of password input: //input[@name='password']
+INFO     pages.base_page:base_page.py:39 Element is visible: //input[@name='password']
+INFO     tests.login_test.test_3_verify_presence_of_login_fields:test_3_verify_presence_of_login_fields.py:22 Password is visible
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='username']
+INFO     pages.login_page:login_page.py:16 Logging in with username: Admin
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='password']
+INFO     pages.login_page:login_page.py:18 Logging in with password: admin123
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.login_page:login_page.py:20 Clicked on the submit button
+INFO     tests.login_test.test_3_verify_presence_of_login_fields:test_3_verify_presence_of_login_fields.py:24 Username - Admin and Password - admin123 is enabled and entered
+INFO     pages.login_page:login_page.py:44 Clicked on Forgot Password link
+INFO     pages.login_page:login_page.py:47 Reset Password text is present
+INFO     pages.login_page:login_page.py:51 Clicked Submit button
+INFO     tests.login_test.test_7_verify_forget_password_link:test_7_verify_forget_password_link.py:12 Reset Password link sent successfully is displayed
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='username']
+INFO     pages.login_page:login_page.py:16 Logging in with username: Admin
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='password']
+INFO     pages.login_page:login_page.py:18 Logging in with password: admin123
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.login_page:login_page.py:20 Clicked on the submit button
+INFO     pages.base_page:base_page.py:39 Element is visible: //h6[text()='Dashboard']
+INFO     pages.menu_page:menu_page.py:12 Verifying visibility of Admin Menu
+INFO     pages.base_page:base_page.py:39 Element is visible: //span[text()='Admin']
+INFO     pages.menu_page:menu_page.py:16 Admin Menu is visible
+INFO     pages.menu_page:menu_page.py:12 Verifying visibility of PIM Menu
+INFO     pages.base_page:base_page.py:39 Element is visible: //span[text()='PIM']
+INFO     pages.menu_page:menu_page.py:16 PIM Menu is visible
+INFO     pages.menu_page:menu_page.py:12 Verifying visibility of Leave Menu
+INFO     pages.base_page:base_page.py:39 Element is visible: //span[text()='Leave']
+INFO     pages.menu_page:menu_page.py:16 Leave Menu is visible
+INFO     pages.menu_page:menu_page.py:12 Verifying visibility of Time Menu
+INFO     pages.base_page:base_page.py:39 Element is visible: //span[text()='Time']
+INFO     pages.menu_page:menu_page.py:16 Time Menu is visible
+INFO     pages.menu_page:menu_page.py:12 Verifying visibility of Recruitment Menu
+INFO     pages.base_page:base_page.py:39 Element is visible: //span[text()='Recruitment']
+INFO     pages.menu_page:menu_page.py:16 Recruitment Menu is visible
+INFO     pages.menu_page:menu_page.py:12 Verifying visibility of My Info Menu
+INFO     pages.base_page:base_page.py:39 Element is visible: //span[text()='My Info']
+INFO     pages.menu_page:menu_page.py:16 My Info Menu is visible
+INFO     pages.menu_page:menu_page.py:12 Verifying visibility of Performance Menu
+INFO     pages.base_page:base_page.py:39 Element is visible: //span[text()='Performance']
+INFO     pages.menu_page:menu_page.py:16 Performance Menu is visible
+INFO     pages.menu_page:menu_page.py:12 Verifying visibility of Dashboard Menu
+INFO     pages.base_page:base_page.py:39 Element is visible: //span[text()='Dashboard']
+INFO     pages.menu_page:menu_page.py:16 Dashboard Menu is visible
+INFO     pages.menu_page:menu_page.py:21 Verifying clickability of Admin Menu
+INFO     pages.menu_page:menu_page.py:22 Clicking on Admin Menu
+INFO     pages.base_page:base_page.py:28 Clicking the //span[text()='Admin']
+INFO     pages.menu_page:menu_page.py:21 Verifying clickability of PIM Menu
+INFO     pages.menu_page:menu_page.py:22 Clicking on PIM Menu
+INFO     pages.base_page:base_page.py:28 Clicking the //span[text()='PIM']
+INFO     pages.menu_page:menu_page.py:21 Verifying clickability of Leave Menu
+INFO     pages.menu_page:menu_page.py:22 Clicking on Leave Menu
+INFO     pages.base_page:base_page.py:28 Clicking the //span[text()='Leave']
+INFO     pages.menu_page:menu_page.py:21 Verifying clickability of Time Menu
+INFO     pages.menu_page:menu_page.py:22 Clicking on Time Menu
+INFO     pages.base_page:base_page.py:28 Clicking the //span[text()='Time']
+INFO     pages.menu_page:menu_page.py:21 Verifying clickability of Recruitment Menu
+INFO     pages.menu_page:menu_page.py:22 Clicking on Recruitment Menu
+INFO     pages.base_page:base_page.py:28 Clicking the //span[text()='Recruitment']
+INFO     pages.menu_page:menu_page.py:21 Verifying clickability of My Info Menu
+INFO     pages.menu_page:menu_page.py:22 Clicking on My Info Menu
+INFO     pages.base_page:base_page.py:28 Clicking the //span[text()='My Info']
+INFO     pages.menu_page:menu_page.py:21 Verifying clickability of Performance Menu
+INFO     pages.menu_page:menu_page.py:22 Clicking on Performance Menu
+INFO     pages.base_page:base_page.py:28 Clicking the //span[text()='Performance']
+INFO     pages.menu_page:menu_page.py:21 Verifying clickability of Dashboard Menu
+INFO     pages.menu_page:menu_page.py:22 Clicking on Dashboard Menu
+INFO     pages.base_page:base_page.py:28 Clicking the //span[text()='Dashboard']
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='username']
+INFO     pages.login_page:login_page.py:16 Logging in with username: Admin
+INFO     pages.base_page:base_page.py:22 Element is visible: //input[@name='password']
+INFO     pages.login_page:login_page.py:18 Logging in with password: admin123
+INFO     pages.base_page:base_page.py:28 Clicking the //button[@type='submit']
+INFO     pages.login_page:login_page.py:20 Clicked on the submit button
+INFO     pages.base_page:base_page.py:39 Element is visible: //h6[text()='Dashboard']
+INFO     pages.myinfo_page:myinfo_page.py:10 Navigating to MyInfo Page
+INFO     pages.base_page:base_page.py:28 Clicking the //span[text()='My Info']
+INFO     pages.myinfo_page:myinfo_page.py:14 Verifying submenus are visible
+INFO     pages.myinfo_page:myinfo_page.py:16 Verifying visibility of Personal Details submenu
+INFO     pages.base_page:base_page.py:39 Element is visible: //a[text()='Personal Details']
+INFO     pages.myinfo_page:myinfo_page.py:20 Personal Details submenu is visible
+INFO     pages.myinfo_page:myinfo_page.py:16 Verifying visibility of Contact Details submenu
+INFO     pages.base_page:base_page.py:39 Element is visible: //a[text()='Contact Details']
+INFO     pages.myinfo_page:myinfo_page.py:20 Contact Details submenu is visible
+INFO     pages.myinfo_page:myinfo_page.py:16 Verifying visibility of Emergency Contacts submenu
+INFO     pages.base_page:base_page.py:39 Element is visible: //a[text()='Emergency Contacts']
+INFO     pages.myinfo_page:myinfo_page.py:20 Emergency Contacts submenu is visible
+INFO     pages.myinfo_page:myinfo_page.py:16 Verifying visibility of Dependents submenu
+INFO     pages.base_page:base_page.py:39 Element is visible: //a[text()='Dependents']
+INFO     pages.myinfo_page:myinfo_page.py:20 Dependents submenu is visible
+INFO     pages.myinfo_page:myinfo_page.py:16 Verifying visibility of Immigration submenu
+INFO     pages.base_page:base_page.py:39 Element is visible: //a[text()='Immigration']
+INFO     pages.myinfo_page:myinfo_page.py:20 Immigration submenu is visible
+INFO     pages.myinfo_page:myinfo_page.py:16 Verifying visibility of Job submenu
+INFO     pages.base_page:base_page.py:39 Element is visible: //a[text()='Job']
+INFO     pages.myinfo_page:myinfo_page.py:20 Job submenu is visible
+INFO     pages.myinfo_page:myinfo_page.py:16 Verifying visibility of Salary submenu
+INFO     pages.base_page:base_page.py:39 Element is visible: //a[text()='Salary']
+INFO     pages.myinfo_page:myinfo_page.py:20 Salary submenu is visible
+INFO     pages.myinfo_page:myinfo_page.py:16 Verifying visibility of Report-to submenu
+INFO     pages.base_page:base_page.py:39 Element is visible: //a[text()='Report-to']
+INFO     pages.myinfo_page:myinfo_page.py:20 Report-to submenu is visible
+INFO     pages.myinfo_page:myinfo_page.py:16 Verifying visibility of Qualifications submenu
+INFO     pages.base_page:base_page.py:39 Element is visible: //a[text()='Qualifications']
+INFO     pages.myinfo_page:myinfo_page.py:20 Qualifications submenu is visible
+INFO     pages.myinfo_page:myinfo_page.py:16 Verifying visibility of Memberships submenu
+INFO     pages.base_page:base_page.py:39 Element is visible: //a[text()='Memberships']
+INFO     pages.myinfo_page:myinfo_page.py:20 Memberships submenu is visible
+INFO     pages.myinfo_page:myinfo_page.py:24 Verifying submenus are clickable
+INFO     pages.myinfo_page:myinfo_page.py:26 Personal Details submenu is clickable
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Personal Details']
+INFO     pages.myinfo_page:myinfo_page.py:26 Contact Details submenu is clickable
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Contact Details']
+INFO     pages.myinfo_page:myinfo_page.py:26 Emergency Contacts submenu is clickable
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Emergency Contacts']
+INFO     pages.myinfo_page:myinfo_page.py:26 Dependents submenu is clickable
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Dependents']
+INFO     pages.myinfo_page:myinfo_page.py:26 Immigration submenu is clickable
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Immigration']
+INFO     pages.myinfo_page:myinfo_page.py:26 Job submenu is clickable
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Job']
+INFO     pages.myinfo_page:myinfo_page.py:26 Salary submenu is clickable
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Salary']
+INFO     pages.myinfo_page:myinfo_page.py:26 Report-to submenu is clickable
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Report-to']
+INFO     pages.myinfo_page:myinfo_page.py:26 Qualifications submenu is clickable
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Qualifications']
+INFO     pages.myinfo_page:myinfo_page.py:26 Memberships submenu is clickable
+INFO     pages.base_page:base_page.py:28 Clicking the //a[text()='Memberships']
