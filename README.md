@@ -71,8 +71,12 @@ The goal is to ensure that critical workflows behave as expected under both posi
 
 **└── README.md              # Project documentation**
 
+Important Links:
+
 **Jenkins CICD Integration** - http://localhost:8080/job/Playwright_Pytest_HR_Management_Web_Application_Automation/
+
 **GitHub URL** - https://github.com/Poojaraghu-git/Playwright_Pytest_HR_Management_Web_Application.git
+
 **Google drive URL** - https://drive.google.com/drive/folders/1gi_bDdAOrfRKVtcbnc6mek-VuwOFZbR4?usp=drive_link
 
 
