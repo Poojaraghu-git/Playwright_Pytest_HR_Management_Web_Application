@@ -21,6 +21,7 @@ The automation suite validates core modules such as:
 * Claim Management
 * My Info Section
 * Forgot Password Flow
+* CICD Integration completed
 
 
 
