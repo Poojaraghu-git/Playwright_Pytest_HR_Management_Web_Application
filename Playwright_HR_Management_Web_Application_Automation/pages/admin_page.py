@@ -1,5 +1,4 @@
 import logging
-from time import sleep
 
 from locators.admin_locator import AdminLocator
 from locators.homepage_locator import HomepageLocator

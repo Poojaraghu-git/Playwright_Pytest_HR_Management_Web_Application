@@ -1,6 +1,4 @@
 import logging
-from time import sleep
-
 from locators.homepage_locator import HomepageLocator
 from locators.leave_locator import LeaveLocator
 from pages.base_page import BasePage
@@ -86,7 +84,7 @@ class LeavePage(BasePage):
 
         self.click(LeaveLocator.Search_Button)
         self.page.wait_for_selector(LeaveLocator.Leave_List_Rows, timeout=5000)
-        sleep(10)
+
 
         rows = self.page.locator(LeaveLocator.Leave_List_Name_Cell)
         count = rows.count()
