@@ -88,7 +88,7 @@ Important Links:
 
 POOJA RAGHURAMAN  
 
-Automation Tester | Python + Playwright | HRM Web App Testing
+Automation Tester | Python + Playwright | HRM Web App Testing.
 
 
 
